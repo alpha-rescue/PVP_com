@@ -70,8 +70,8 @@ def distributor(list_, thread_number):
 
     for i in list_:
 
-        model = PVP_model(private=i[0],
-                          proxy=i[1])
+        model = PVP_model(private=i[1],
+                          proxy=i[0])
 
         try:
 
